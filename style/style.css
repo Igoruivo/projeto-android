@@ -31,6 +31,7 @@
 body {
     background-color: #c5ebd6;
     font-family: var(--fonte-padrao);
+    margin: 0px;
 }
 
 a.externo::after {
@@ -86,9 +87,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
-    border-radius: 0px 0px 10px 10px;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
 }
 
@@ -130,7 +129,7 @@ main a:hover {
 
 main img {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
 }
 
 main img.pequena {
@@ -143,7 +142,7 @@ main img.pequena {
 div.video {
     background-color: var(--cor4);
     padding: 20px;
-    margin: 0px -30px 30px 0px;
+    margin: 0px 0px 30px 0px;
     padding-bottom: 56%;
     position: relative;
 }
@@ -181,7 +180,11 @@ aside > ul {
 footer {
     background-color: var(--cor5);
     color: white;
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     font-size: 0.8em;
+}
+
+footer > p {
+    margin: 8px;
 }
